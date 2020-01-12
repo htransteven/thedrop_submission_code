@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">The Drop</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_barcode_detect">BarcodeDetect</string>
+
+    <string name="title_activity_splash_screen">The Drop</string>
+    <string name="logo_description">The Drop</string>
+    <string name="title_activity_login_screen">LoginScreen</string>
+    <string name="scanner_outline">Outline Scanner Box</string>
+</resources>

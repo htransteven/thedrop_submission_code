@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity">
+
+        <ImageButton
+            android:id="@+id/camera_open"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="right|bottom"
+            android:background="@drawable/button_shape"
+            android:elevation="20dp"
+            android:onClick="scanCode"
+            android:padding="20dp"
+            android:src="@drawable/camera_icon"
+            android:translationX="-30dp"
+            android:translationY="-40dp" />
+
+        <EditText
+            android:id="@+id/confirmation_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:ems="10"
+            android:inputType="number"
+            android:singleLine="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/current_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:alpha="0.75"
+            android:background="@drawable/maps_username_bg"
+            android:elevation="5dp"
+            android:fontFamily="sans-serif-light"
+            android:onClick="changeVenmo"
+            android:padding="20dp"
+            android:text="@"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:typeface="normal"/>
+</fragment>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#023e58"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".LoginScreen"
+    tools:showIn="@layout/activity_login_screen">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="385dp"
+        android:layout_height="485dp"
+        android:background="@null"
+        android:elevation="30dp"
+        android:onClick="saveVenmoUsername"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.882"
+        app:srcCompat="@drawable/thedrop_logo_login" />
+
+    <TextView
+        android:id="@+id/login_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="the drop"
+        android:textColor="#E4FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <EditText
+        android:id="@+id/venmo_username"
+        style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+        android:layout_width="250dp"
+        android:layout_height="31dp"
+        android:background="@drawable/login_field"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="venmo_username"
+        android:inputType="text"
+        android:radius="20dp"
+        android:textColor="#AD162F5E"
+        android:textColorHighlight="#AD162F5E"
+        android:textColorHint="#AD18226B"
+        android:textColorLink="#AD162F5E"
+        android:textCursorDrawable="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="47dp"
+        android:layout_height="55dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.254" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

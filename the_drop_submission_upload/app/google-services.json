@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "470702194582",
+    "firebase_url": "https://the-drop-4bfee.firebaseio.com",
+    "project_id": "the-drop-4bfee",
+    "storage_bucket": "the-drop-4bfee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470702194582:android:03de370d3fa3f11cc6a7b7",
+        "android_client_info": {
+          "package_name": "com.example.thedrop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470702194582-8qc29uj80t5gp5n1urhka3pprcahtmjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrm1PF5XhpMv_FTuIiDSMHjCa23Wd8bNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470702194582-8qc29uj80t5gp5n1urhka3pprcahtmjq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "470702194582-36e96t8g5g6gurg4vhj9rdmg6kved1ti.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.theDroppity"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
